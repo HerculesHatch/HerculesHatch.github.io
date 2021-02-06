@@ -5,6 +5,7 @@ var setup = function(){
   angleMode(RADIANS);
   ellipseMode(RADIUS);
 };
+/*
 function hollowStar(x, y, extOutRadius, extInRadius, intOutRadius, intInRadius, numSides){
   if (numSides === 0){
     point(x, y);
@@ -53,3 +54,4 @@ function draw(){
   hollowStar(0, 0, 182.5, 75, 50, 125, 5);
   resetMatrix();
 }
+*/

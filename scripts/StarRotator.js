@@ -1,11 +1,10 @@
-var setup = function(){
+function setup(){
   createCanvas(400, 400);
   colorMode(HSB, 360, 215, 215, 255);
   frameRate(60);
   angleMode(RADIANS);
   ellipseMode(RADIUS);
-};
-/*
+}
 function hollowStar(x, y, extOutRadius, extInRadius, intOutRadius, intInRadius, numSides){
   if (numSides === 0){
     point(x, y);
@@ -54,4 +53,3 @@ function draw(){
   hollowStar(0, 0, 182.5, 75, 50, 125, 5);
   resetMatrix();
 }
-*/

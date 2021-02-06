@@ -1,10 +1,10 @@
-function setup(){
+var setup = function(){
   createCanvas(400, 400);
   colorMode(HSB, 360, 215, 215, 255);
   frameRate(60);
   angleMode(RADIANS);
   ellipseMode(RADIUS);
-}
+};
 function hollowStar(x, y, extOutRadius, extInRadius, intOutRadius, intInRadius, numSides){
   if (numSides === 0){
     point(x, y);
